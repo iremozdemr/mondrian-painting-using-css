@@ -1,0 +1,69 @@
+/*
+gap color: #000
+white: #F0F1EC
+red: #E72F24
+black: #232629
+blue: #004592
+yellow: #F9D01E
+*/
+
+/*for dimensions, see dimensions.png image*/
+/*HINT: remember you can't change the properties of grid line.*/
+/*but grid lines are transparent!*/
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    width: 748px;
+    height: 748px;
+    gap: 9px;
+    grid-template-rows: 414px 130px 155px 22px;
+    grid-template-columns: 320px 198px 153px 50px;
+    background-color: #000;
+}
+
+#item-1{
+    background-color: #E72F24;
+}
+
+#item-2{
+    background-color: #F0F1EC;
+    height: 414px;
+    grid-column: span 3;
+}
+
+#item-3{
+    background-color: #F0F1EC;
+    width: 320px;
+    grid-row: span 2;
+}
+
+#item-4{
+    background-color: #F0F1EC;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#item-5{
+    background-color: #004592;
+    height: 130px;
+    border-bottom: 10px solid #000;
+}
+
+#item-6{
+    background-color: #F0F1EC;
+    grid-row: span 2;
+}
+
+#item-7{
+    background-color: #F0F1EC;
+}
+
+#item-8{
+    background-color: #F9D01E;
+}
+
+#item-9{
+    background-color: #232629;
+}
